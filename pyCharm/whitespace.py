@@ -1,5 +1,0 @@
-print("Please type many words")
-words = input().split()
-my_list = sorted(set(words))
-my_list.sort()
-print(", ".join(my_list))
