@@ -1,0 +1,10 @@
+my_num = int(raw_input("Give me a number and I will give all divisors of it. "))
+my_list = []
+if my_num == 0:
+    my_list.append(0)
+for thing in range(1, my_num+1):
+    if my_num % thing == 0:
+        my_list.append(thing)
+print my_list
+
+
